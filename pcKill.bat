@@ -10,9 +10,8 @@ for /f "skip=1" %%p in ('wmic os get TotalVisibleMemorySize') do (
 
 echo Total system ram is %system_ram%
 
-set /a get_ridOf = 80/100
 
-set /a "c=%system_ram% * 90 /100"
+set /a "c=%system_ram% - 28"
 
 echo Will be getting rid of %c% bytes of memory
 
