@@ -7,3 +7,6 @@ Kill any windows pc within seconds. Warning- Use it at your own risk, The writer
 
 ## Working    
 The script works by limiting memory to very low so that on the restart windows is unable to boot.
+
+## Contribution
+This repo is open to any contribution. You are free to fork and make it even more nasty.
